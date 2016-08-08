@@ -1,0 +1,1 @@
+CREATE TABLE `comment`.`threaded_comments` ( `id` INT(11) NOT NULL AUTO_INCREMENT, `author` VARCHAR(255) NOT NULL , `comment` TEXT NOT NULL , `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , `parent_id` INT(11) NULL , `instid` INT(5) NULL ),PRIMARY KEY (ID); 
